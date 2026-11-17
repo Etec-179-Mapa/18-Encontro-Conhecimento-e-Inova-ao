@@ -1,16 +1,14 @@
 /* JavaScript comum. O mapa inteiro está neste arquivo, junto com o desenho da página. */
 /* Dados lidos da planta oficial. Edite com cuidado: cada número precisa continuar no lugar certo. */
-/* JavaScript comum. O mapa inteiro está neste arquivo, junto com o desenho da página. */
-/* Dados lidos da planta oficial. Edite com cuidado: cada número precisa continuar no lugar certo. */
 var FEIRA = {
   "itens": [
     {
       "id": "p31",
       "numero": "31",
-      "titulo": "A influência da tecnologia na criminologia",
+      "titulo": "Projeto 31",
       "zona": "externa",
       "lugar": "Barracão",
-      "detalhe": "ODS: Trabalho decente e crescimento econômico, Indústria, Inovação e Infraestrutura e Paz, Justiça e Instituições Eficazes",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -29,10 +27,10 @@ var FEIRA = {
     {
       "id": "p26",
       "numero": "26",
-      "titulo": "Complexo 51: Pesquisa Extraterrestre",
+      "titulo": "Projeto 26",
       "zona": "externa",
       "lugar": "Barracão",
-      "detalhe": "ODS: Educação de Qualidade e Indústria, Inovação e Infraestrutura",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -51,10 +49,10 @@ var FEIRA = {
     {
       "id": "47",
       "numero": "47",
-      "titulo": "WEC – Além da velocidade",
+      "titulo": "Projeto 47",
       "zona": "externa",
       "lugar": "Barracão",
-      "detalhe": "ODS: Indústria, Inovação e Infraestrutura",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -73,10 +71,10 @@ var FEIRA = {
     {
       "id": "p20",
       "numero": "20",
-      "titulo": "Muay Thai: A Arte da Luta",
+      "titulo": "Projeto 20",
       "zona": "externa",
       "lugar": "Barracão",
-      "detalhe": "ODS: Saúde e Bem-estar",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -95,10 +93,10 @@ var FEIRA = {
     {
       "id": "p04",
       "numero": "04",
-      "titulo": "Facetec – O Futuro da Identificação",
+      "titulo": "Projeto 04",
       "zona": "externa",
       "lugar": "Barracão",
-      "detalhe": "ODS: Indústria, Inovação e Infraestrutura",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -117,10 +115,10 @@ var FEIRA = {
     {
       "id": "p03",
       "numero": "03",
-      "titulo": "A farmácia da fauna Brasileira",
+      "titulo": "Projeto 03",
       "zona": "externa",
       "lugar": "Barracão",
-      "detalhe": "ODS: Saúde e Bem-estar",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -139,10 +137,10 @@ var FEIRA = {
     {
       "id": "p36",
       "numero": "36",
-      "titulo": "Jogo da Vida Real",
+      "titulo": "Projeto 36",
       "zona": "externa",
       "lugar": "Barracão",
-      "detalhe": "ODS: Redução da Desigualdade",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -161,10 +159,10 @@ var FEIRA = {
     {
       "id": "p22",
       "numero": "22",
-      "titulo": "Judô: um caminho suave para saúde e bem estar",
+      "titulo": "Projeto 22",
       "zona": "externa",
       "lugar": "Barracão",
-      "detalhe": "ODS: Saúde e Bem-estar",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -183,10 +181,10 @@ var FEIRA = {
     {
       "id": "p11",
       "numero": "11",
-      "titulo": "Da bola ao Var: A Tecnologia que Transformou o Futebol",
+      "titulo": "Projeto 11",
       "zona": "externa",
       "lugar": "Barracão",
-      "detalhe": "ODS: Indústria, Inovação e Infraestrutura",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -205,10 +203,10 @@ var FEIRA = {
     {
       "id": "p43",
       "numero": "43",
-      "titulo": "Projeto Recyclemotor",
+      "titulo": "Projeto 43",
       "zona": "externa",
       "lugar": "Barracão",
-      "detalhe": "ODS: Indústria, Inovação e Infraestrutura",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -227,10 +225,10 @@ var FEIRA = {
     {
       "id": "p08",
       "numero": "08",
-      "titulo": "Quantus Circus: O espetáculo onde a magia e a física se encontram",
+      "titulo": "Projeto 08",
       "zona": "externa",
       "lugar": "Barracão",
-      "detalhe": "ODS: Educação de Qualidade",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -249,10 +247,10 @@ var FEIRA = {
     {
       "id": "p35",
       "numero": "35",
-      "titulo": "Hawai: Da Terra do Fogo ao Paraíso",
+      "titulo": "Projeto 35",
       "zona": "externa",
       "lugar": "Barracão",
-      "detalhe": "ODS: Vida Sobre a Terra",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -271,10 +269,10 @@ var FEIRA = {
     {
       "id": "p02",
       "numero": "02",
-      "titulo": "Os dois grandes mistérios do universo",
+      "titulo": "Projeto 02",
       "zona": "externa",
       "lugar": "Barracão",
-      "detalhe": "ODS: Indústria, Inovação e Infraestrutura",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -293,10 +291,10 @@ var FEIRA = {
     {
       "id": "p46",
       "numero": "46",
-      "titulo": "Acamp: Técnicas de Sobrevivência",
+      "titulo": "Projeto 46",
       "zona": "externa",
       "lugar": "Barracão",
-      "detalhe": "ODS: Educação de Qualidade",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -316,10 +314,10 @@ var FEIRA = {
     {
       "id": "p39",
       "numero": "39",
-      "titulo": "Agroecologia e Agro 4.0 na sustentabilidade e tecnologia no futuro do campo",
+      "titulo": "Projeto 39",
       "zona": "externa",
       "lugar": "Pátio",
-      "detalhe": "ODS: Consumo e Produção Responsável",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -503,10 +501,10 @@ var FEIRA = {
     {
       "id": "p33",
       "numero": "33",
-      "titulo": "MONITORIA",
+      "titulo": "Projeto 33",
       "zona": "inferior",
       "lugar": "Corredor",
-      "detalhe": "Posto de monitoria",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -524,10 +522,10 @@ var FEIRA = {
     {
       "id": "p15",
       "numero": "15",
-      "titulo": "ORGANIZAÇÃO",
+      "titulo": "Projeto 15",
       "zona": "inferior",
       "lugar": "Corredor",
-      "detalhe": "Posto da organização",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -545,10 +543,10 @@ var FEIRA = {
     {
       "id": "p07",
       "numero": "07",
-      "titulo": "Pragas Agrícolas",
+      "titulo": "Projeto 07",
       "zona": "inferior",
       "lugar": "Sala 1",
-      "detalhe": "ODS: Fome Zero e Agricultura Sustentável",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -567,10 +565,10 @@ var FEIRA = {
     {
       "id": "p05",
       "numero": "05",
-      "titulo": "Eficiência de Conversão de Energia em mini gerador Eólico",
+      "titulo": "Projeto 05",
       "zona": "inferior",
       "lugar": "Sala 1",
-      "detalhe": "ODS: Energia limpa e acessível",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -590,10 +588,10 @@ var FEIRA = {
     {
       "id": "p06",
       "numero": "06",
-      "titulo": "A Ilusão do Movimento: Praxinoscópio",
+      "titulo": "Projeto 06",
       "zona": "inferior",
       "lugar": "Sala 1",
-      "detalhe": "ODS: Educação de Qualidade",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -613,10 +611,10 @@ var FEIRA = {
     {
       "id": "p25",
       "numero": "25",
-      "titulo": "Pilares da Vida Marinha em Perigo",
+      "titulo": "Projeto 25",
       "zona": "inferior",
       "lugar": "Sala 2",
-      "detalhe": "ODS: Vida na água, Ação Contra a Mudança Global do Clima e Consumo e Produção Responsável",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -635,10 +633,10 @@ var FEIRA = {
     {
       "id": "p01",
       "numero": "01",
-      "titulo": "Marte: Um novo lar?",
+      "titulo": "Projeto 01",
       "zona": "inferior",
       "lugar": "Sala 2",
-      "detalhe": "ODS: Indústria, Inovação e Infraestrutura",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -657,10 +655,10 @@ var FEIRA = {
     {
       "id": "p34",
       "numero": "34",
-      "titulo": "Nuvem Atômica: Visualizando o comportamento das partículas",
+      "titulo": "Projeto 34",
       "zona": "inferior",
       "lugar": "Sala 2",
-      "detalhe": "ODS: Educação de Qualidade",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -679,10 +677,10 @@ var FEIRA = {
     {
       "id": "p40",
       "numero": "40",
-      "titulo": "Medicina Popular",
+      "titulo": "Projeto 40",
       "zona": "inferior",
       "lugar": "Lab. Física e Biologia",
-      "detalhe": "ODS: Saúde e Bem-estar",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -703,10 +701,10 @@ var FEIRA = {
 {
      "id": "p41",
       "numero": "41",
-      "titulo": "O fogo que muda de cor (teste de chama)",
+      "titulo": "Projeto 41",
       "zona": "inferior",
       "lugar": "Lab. Física e Biologia",
-      "detalhe": "ODS: Educação de Qualidade",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -728,10 +726,10 @@ var FEIRA = {
     {
       "id": "p30",
       "numero": "30",
-      "titulo": "Vacinas: Ciências que protege",
+      "titulo": "Projeto 30",
       "zona": "inferior",
       "lugar": "Lab. Física e Biologia",
-      "detalhe": "ODS: Saúde e Bem-estar",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1048,10 +1046,10 @@ var FEIRA = {
     {
       "id": "p44",
       "numero": "44",
-      "titulo": "Fogo: A Ciência em Combustão",
+      "titulo": "Projeto 44",
       "zona": "superior",
       "lugar": "Lab. Microbiologia",
-      "detalhe": "ODS: Cidades e Comunidades Sustentáveis e Vida Terrestre",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1069,10 +1067,10 @@ var FEIRA = {
     {
       "id": "p13",
       "numero": "13",
-      "titulo": "Leite Materno: Pequenas Gotas, Grandes Impactos",
+      "titulo": "Projeto 13",
       "zona": "superior",
       "lugar": "Sala 6",
-      "detalhe": "ODS: Saúde e Bem-estar",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1090,10 +1088,10 @@ var FEIRA = {
     {
       "id": "p27",
       "numero": "27",
-      "titulo": "Museu do ano 2100",
+      "titulo": "Projeto 27",
       "zona": "superior",
       "lugar": "Sala 6",
-      "detalhe": "ODS: Ação Contra a Mudança Global no Clima",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1113,10 +1111,10 @@ var FEIRA = {
     {
       "id": "p18",
       "numero": "18",
-      "titulo": "Além das Chamas: A História da Boate Kiss",
+      "titulo": "Projeto 18",
       "zona": "superior",
       "lugar": "Sala 7",
-      "detalhe": "ODS: Saúde e Bem-estar",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1135,10 +1133,10 @@ var FEIRA = {
     {
       "id": "p32",
       "numero": "32",
-      "titulo": "Hollywood: O mundo através dos efeitos especiais",
+      "titulo": "Projeto 32",
       "zona": "superior",
       "lugar": "Sala 7",
-      "detalhe": "ODS: Indústria, Inovação e Infraestrutura",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1158,10 +1156,10 @@ var FEIRA = {
     {
       "id": "p28",
       "numero": "28",
-      "titulo": "Entre Cliques",
+      "titulo": "Projeto 28",
       "zona": "superior",
       "lugar": "Sala 7",
-      "detalhe": "ODS: Educação de Qualidade",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1180,10 +1178,10 @@ var FEIRA = {
     {
       "id": "p21",
       "numero": "21",
-      "titulo": "Nazismo: Para nunca esquecer",
+      "titulo": "Projeto 21",
       "zona": "superior",
       "lugar": "Sala 8",
-      "detalhe": "ODS: Educação de Qualidade",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1202,10 +1200,10 @@ var FEIRA = {
     {
       "id": "p12",
       "numero": "12",
-      "titulo": "Afeganistão: o preço de nascer mulher",
+      "titulo": "Projeto 12",
       "zona": "superior",
       "lugar": "Sala 8",
-      "detalhe": "ODS: Redução das Desigualdades",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1224,10 +1222,10 @@ var FEIRA = {
     {
       "id": "p29",
       "numero": "29",
-      "titulo": "Além do Som",
+      "titulo": "Projeto 29",
       "zona": "superior",
       "lugar": "Sala 9",
-      "detalhe": "ODS: Educação de Qualidade",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1246,10 +1244,10 @@ var FEIRA = {
     {
       "id": "p09",
       "numero": "09",
-      "titulo": "InovaMed: Seu primeiro atendimento inteligente",
+      "titulo": "Projeto 09",
       "zona": "superior",
       "lugar": "Sala 9",
-      "detalhe": "ODS: Saúde e Bem-estar",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1268,10 +1266,10 @@ var FEIRA = {
     {
       "id": "p10",
       "numero": "10",
-      "titulo": "Engenharia Biomédica",
+      "titulo": "Projeto 10",
       "zona": "superior",
       "lugar": "Sala 9",
-      "detalhe": "ODS: Saúde e Bem-estar",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1291,10 +1289,10 @@ var FEIRA = {
     {
       "id": "p19",
       "numero": "19",
-      "titulo": "Som, Vibração e Psicologia",
+      "titulo": "Som Vibração e Psicologia",
       "zona": "superior",
       "lugar": "Corredor",
-      "detalhe": "ODS: Saúde e Bem-estar, Educação de Qualidade e Cidades e Comunidades Sustentáveis",
+      "detalhe": " Saúde e Bem Estar, Educação de Qualidade e Cidades e Comunidades Sustentáveis.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1313,10 +1311,10 @@ var FEIRA = {
     {
       "id": "p17",
       "numero": "17",
-      "titulo": "Do In Natura ao Ultraprocessado",
+      "titulo": "Projeto 17",
       "zona": "superior",
       "lugar": "Junto ao Lab. Alimentos",
-      "detalhe": "ODS: Saúde e Bem-estar",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1335,10 +1333,10 @@ var FEIRA = {
     {
       "id": "p14",
       "numero": "14",
-      "titulo": "A Prisão da Mente",
+      "titulo": "A prisão da Mente",
       "zona": "superior",
       "lugar": "Sala 5",
-      "detalhe": "ODS: Saúde e Bem-estar",
+      "detalhe": "Saúde e Bem estar",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1357,10 +1355,10 @@ var FEIRA = {
     {
       "id": "p45",
       "numero": "45",
-      "titulo": "Dentro do coração: O que nossas emoções nos ensinam",
+      "titulo": "Projeto 45",
       "zona": "superior",
       "lugar": "Sala 5",
-      "detalhe": "ODS: Saúde e Bem-estar",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1379,10 +1377,10 @@ var FEIRA = {
     {
       "id": "p16",
       "numero": "16",
-      "titulo": "Titanic",
+      "titulo": "Projeto 16",
       "zona": "superior",
       "lugar": "Sala 4",
-      "detalhe": "ODS: Indústria, Inovação e Infraestrutura",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1402,10 +1400,10 @@ var FEIRA = {
     {
       "id": "p24",
       "numero": "24",
-      "titulo": "Moda: A História de Vivienne Westwood",
+      "titulo": "Projeto 24",
       "zona": "superior",
       "lugar": "Sala 4",
-      "detalhe": "ODS: Consumo e Produção Responsável e Ação Contra a Mudança Global do Clima",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1425,10 +1423,10 @@ var FEIRA = {
     {
       "id": "p23",
       "numero": "23",
-      "titulo": "Horizon 2030: Existe um Planeta B?",
+      "titulo": "Projeto 23",
       "zona": "superior",
       "lugar": "Sala 4",
-      "detalhe": "ODS: Ação contra a mudança global do clima",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1447,10 +1445,10 @@ var FEIRA = {
     {
       "id": "p42",
       "numero": "42",
-      "titulo": "Quando os ossos contam a história",
+      "titulo": "Projeto 42",
       "zona": "superior",
       "lugar": "Sala 3",
-      "detalhe": "ODS: Educação de Qualidade",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1469,10 +1467,10 @@ var FEIRA = {
     {
       "id": "p37",
       "numero": "37",
-      "titulo": "A guerra de Troia: Disputas Territoriais e estratégias Psicológicas",
+      "titulo": "Projeto 37",
       "zona": "superior",
       "lugar": "Sala 3",
-      "detalhe": "ODS: Paz, Justiça e Instituições Eficazes",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1491,10 +1489,10 @@ var FEIRA = {
     {
       "id": "p38",
       "numero": "38",
-      "titulo": "Césio-137: A emergência radioativa de Goiânia",
+      "titulo": "Projeto 38",
       "zona": "superior",
       "lugar": "Sala 3",
-      "detalhe": "ODS: Energia Limpa e Acessível",
+      "detalhe": "A planta oficial identifica este estande apenas pelo número. O nome do trabalho não consta no mapa.",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -1782,6 +1780,7 @@ var FEIRA = {
 
   ]
 };
+
 (function () {
   var ITENS = FEIRA.itens;
   var NOTAS = FEIRA.notas;
@@ -2204,7 +2203,23 @@ var FEIRA = {
     evento.preventDefault();
     var visiveis = itensVisiveis();
     var primeiro = visiveis.filter(function (item) { return item.tipo === "projeto"; })[0] || visiveis[0];
-    if (primeiro) irPara(primeiro);
+    campo.blur();
+    if (primeiro) {
+      irPara(primeiro);
+      window.setTimeout(function () {
+        painel.scrollIntoView({
+          behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
+          block: "start",
+        });
+      }, 120);
+    } else {
+      window.setTimeout(function () {
+        lista.scrollIntoView({
+          behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
+          block: "start",
+        });
+      }, 120);
+    }
   });
   campo.addEventListener("input", function () {
     consulta = campo.value;
