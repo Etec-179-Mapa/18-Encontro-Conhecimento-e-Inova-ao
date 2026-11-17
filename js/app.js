@@ -227,7 +227,7 @@ var FEIRA = {
     {
       "id": "p08",
       "numero": "08",
-      "titulo": "Quantus Circe: O espetáculo onde a magia e a física se encontram",
+      "titulo": "Quantus Circus: O espetáculo onde a magia e a física se encontram",
       "zona": "externa",
       "lugar": "Barracão",
       "detalhe": "ODS: Educação de Qualidade",
