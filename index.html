@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>18º Encontro — Mapa da feira</title>
+  <meta name="description" content="Mapa oficial do 18º Encontro da Etec de Vargem Grande do Sul: onde está cada projeto no barracão, no piso inferior e no piso superior.">
+  <meta name="theme-color" content="#f3eee4">
+  <link rel="icon" href="assets/icone.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Outfit:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="feira" id="app" data-piso="externa">
+    <header class="topo">
+      <div class="faixa-tres"></div>
+      <div class="miolo topo-miolo">
+        <div class="cabeca">
+          <div>
+            <p class="sobretitulo">Etec de Vargem Grande do Sul</p>
+            <h1>18º Encontro</h1>
+            <p class="subtitulo">Conhecimento e inovação · mapa oficial dos projetos</p>
+          </div>
+          <p class="contagem"><strong id="total-estandes">47</strong> estandes</p>
+        </div>
+        <form class="busca" id="busca" role="search">
+          <label class="sr" for="campo">Buscar projeto, sala ou laboratório</label>
+          <input id="campo" type="text" placeholder="Número, sala ou laboratório" autocomplete="off">
+          <button class="limpar" id="limpar" type="button" hidden aria-label="Limpar busca"></button>
+        </form>
+      </div>
+    </header>
+
+    <main class="miolo pagina">
+      <div class="grade">
+        <section aria-label="Mapa da feira">
+          <div class="barra-mapa">
+            <div class="abas" id="abas" role="tablist" aria-label="Piso"></div>
+            <div class="zoom">
+              <button class="redondo" id="zoom-menos" type="button" aria-label="Reduzir mapa"></button>
+              <button class="redondo" id="zoom-mais" type="button" aria-label="Ampliar mapa"></button>
+            </div>
+          </div>
+          <p class="apelido" id="apelido"></p>
+          <div class="visor" id="visor">
+            <svg class="planta" id="planta" viewBox="0 0 780 540" role="img"></svg>
+          </div>
+          <p class="aviso">Planta da Comissão Organizadora 2026. Excepcionalmente, poderão haver mudanças.</p>
+        </section>
+        <aside class="painel" id="painel" aria-live="polite"></aside>
+      </div>
+
+      <section class="lista-bloco" id="lista" aria-label="Lista de espaços"></section>
+
+      <section class="notas">
+        <div class="faixa-notas"></div>
+        <details>
+          <summary>Conferência com o mapa oficial</summary>
+          <ul id="notas"></ul>
+        </details>
+      </section>
+    </main>
+
+    <footer class="miolo rodape">
+      18º Encontro — conhecimento e inovação. Comissão Organizadora 2026. Etec de Vargem Grande do Sul.
+    </footer>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
