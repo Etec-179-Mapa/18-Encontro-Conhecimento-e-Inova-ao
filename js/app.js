@@ -315,7 +315,7 @@ var FEIRA = {
     {
       "id": "p39",
       "numero": "39",
-      "titulo": "Terrabyte: A força fo Agro Negócio",
+      "titulo": "Terrabyte: A força do Agro Negócio",
       "zona": "externa",
       "lugar": "Pátio",
       "detalhe": "ODS: Consumo e Produção Responsável",
