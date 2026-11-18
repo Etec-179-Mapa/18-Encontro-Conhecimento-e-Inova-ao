@@ -504,7 +504,7 @@ var FEIRA = {
       "titulo": "MONITORIA",
       "zona": "inferior",
       "lugar": "Corredor",
-      "detalhe": "Posto de monitoria",
+      "detalhe": "Identificador da monitoria, não é um estande, não define projeto",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -517,7 +517,7 @@ var FEIRA = {
       "y": 22.3,
       "w": 26.9,
       "h": 31.2,
-      "posicao": "Ao lado da Monitoria"
+      
     },
     {
       "id": "p15",
@@ -525,7 +525,7 @@ var FEIRA = {
       "titulo": "ORGANIZAÇÃO",
       "zona": "inferior",
       "lugar": "Corredor",
-      "detalhe": "Posto da organização",
+      "detalhe": "Identificador da monitoria, não é um estande, não define projeto",
       "tipo": "projeto",
       "palavras": [
         "projeto",
@@ -538,7 +538,7 @@ var FEIRA = {
       "y": 19.9,
       "w": 34.7,
       "h": 34.6,
-      "posicao": "Entre a Monitoria e a Organização"
+      
     },
     {
       "id": "p07",
@@ -777,37 +777,6 @@ var FEIRA = {
       "palavras": [
         "restrita",
         "restrito"
-      ]
-    },
-    {
-      "id": "monitoria",
-      "titulo": "Monitoria",
-      "zona": "inferior",
-      "lugar": "Monitoria",
-      "detalhe": "Posto de monitoria, no corredor. O estande 33 fica ao lado, não dentro deste balcão.",
-      "tipo": "servico",
-      "x": 244.9,
-      "y": 21.7,
-      "w": 85.4,
-      "h": 32.4,
-      "palavras": [
-        "monitoria"
-      ]
-    },
-    {
-      "id": "organizacao",
-      "titulo": "Organização",
-      "zona": "inferior",
-      "lugar": "Organização",
-      "detalhe": "Posto da organização. O estande 15 fica entre a Monitoria e este balcão.",
-      "tipo": "servico",
-      "x": 378.4,
-      "y": 20.8,
-      "w": 85.4,
-      "h": 32.4,
-      "palavras": [
-        "organizacao",
-        "comissao"
       ]
     },
     {
