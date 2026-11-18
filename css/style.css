@@ -72,6 +72,11 @@ button:disabled { opacity: 0.4; cursor: default; }
   backdrop-filter: blur(10px);
 }
 
+.logo-etec img {
+  width: 120px;
+  height: auto;
+}
+
 .faixa-tres {
   height: 4px;
   background: linear-gradient(90deg, var(--olive) 0 33.33%, var(--accent) 33.33% 66.66%, var(--lagoon) 66.66% 100%);
@@ -101,8 +106,10 @@ h1 {
   font-family: var(--serif);
   font-size: 1.875rem;
   font-weight: 560;
+  font-style: bold;
   line-height: 1;
   letter-spacing: -0.02em;
+  color: var(--accent);
 }
 
 .subtitulo { margin: 0.25rem 0 0; font-size: 0.875rem; color: var(--muted); }
