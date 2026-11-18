@@ -1,3 +1,4 @@
+
 /* JavaScript comum. O mapa inteiro está neste arquivo, junto com o desenho da página. */
 /* Dados lidos da planta oficial. Edite com cuidado: cada número precisa continuar no lugar certo. */
 var FEIRA = {
@@ -1033,6 +1034,31 @@ var FEIRA = {
       "h": 33.6,
       "grupo": "lab-micro"
     },
+
+ {
+      "id": "p42",
+      "numero": "42",
+      "titulo": "Quando os Ossos Contam a História",
+      "zona": "superior",
+      "lugar": "Lab. Microbiologia",
+      "detalhe": "ODS: Educação de Qualidade",
+      "tipo": "projeto",
+      "palavras": [
+        "projeto",
+        "estande",
+        "42",
+        "microbiologia",
+        "laboratorio"
+      ],
+      "x": 38.7,
+      "y": 127.5,
+      "w": 31.2,
+      "h": 20.6,
+      "grupo": "lab-micro"
+    },
+
+    
+    
     {
       "id": "p13",
       "numero": "13",
@@ -1048,7 +1074,7 @@ var FEIRA = {
         "13",
         "13"
       ],
-      "x": 155.4,
+      "x": 154,
       "y": 102.4,
       "w": 32.1,
       "h": 28.7,
@@ -1411,28 +1437,7 @@ var FEIRA = {
       "grupo": "sala-4",
       "posicao": "Lado direito"
     },
-    {
-      "id": "p42",
-      "numero": "42",
-      "titulo": "Quando os ossos contam a história",
-      "zona": "superior",
-      "lugar": "Sala 3",
-      "detalhe": "ODS: Educação de Qualidade",
-      "tipo": "projeto",
-      "palavras": [
-        "projeto",
-        "estande",
-        "bancada",
-        "42",
-        "42"
-      ],
-      "x": 556,
-      "y": 343.4,
-      "w": 34.5,
-      "h": 22.2,
-      "grupo": "sala-3",
-      "posicao": "Parte de cima"
-    },
+   
     {
       "id": "p37",
       "numero": "37",
@@ -1478,11 +1483,11 @@ var FEIRA = {
       "posicao": "Parte de baixo"
     },
     {
-      "id": "sala-41",
-      "titulo": "FECHADO",
+      "id": "lab-micro",
+      "titulo": "Lab. Microbiologia",
       "zona": "superior",
-      "lugar": "FECHADO",
-      "detalhe": "Inacessível",
+      "lugar": "Lab. Microbiologia",
+      "detalhe": "Laboratório de Microbiologia. Contém o estande 44.",
       "tipo": "sala",
       "x": 29.2,
       "y": 41.2,
@@ -1512,10 +1517,10 @@ var FEIRA = {
     },
     {
       "id": "vao-micro",
-      "titulo": "Vão sem identificação",
+      "titulo": "Corredor de acesso ao lab de microbiologia",
       "zona": "superior",
-      "lugar": "Vão sem identificação",
-      "detalhe": "Retângulo em branco debaixo do Lab. Microbiologia. Sem nome e sem número.",
+      "lugar": "Corredor de acesso ao lab de microbiologia",
+      "detalhe": "lab de microbiologia",
       "tipo": "referencia",
       "x": 86.1,
       "y": 157.7,
@@ -1889,6 +1894,7 @@ var FEIRA = {
     if (item) {
       selecionadoId = item.id;
       piso = item.zona;
+      if (item.tipo === "projeto") zoom = 3;
     } else {
       selecionadoId = null;
       piso = informado === "externa" || informado === "inferior" || informado === "superior" ? informado : "externa";
@@ -1906,6 +1912,7 @@ var FEIRA = {
   function irPara(item) {
     piso = item.zona;
     selecionadoId = item.id;
+    if (item.tipo === "projeto") zoom = 3;
     gravarUrl();
     desenhar();
   }
