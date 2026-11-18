@@ -315,7 +315,7 @@ var FEIRA = {
     {
       "id": "p39",
       "numero": "39",
-      "titulo": "Agroecologia e Agro 4.0 na sustentabilidade e tecnologia no futuro do campo",
+      "titulo": "Terrabyte: A força fo Agro Negócio",
       "zona": "externa",
       "lugar": "Pátio",
       "detalhe": "ODS: Consumo e Produção Responsável",
